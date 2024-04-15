@@ -6,9 +6,10 @@
     <title>Poerty</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
-    <header><h1>A poem for you❤️</h1></header>
+    <header><h1>A rosie poem for you🌹</h1></header>
     <main>
       <form class="form-box" id="poem-input-place">
         <input
@@ -17,11 +18,12 @@
           placeholder="Enter keyword of poem "
           required
           autofocus
-          autocomplete="none" />
+          autocomplete="none"
+          id="userInstruction" />
         <input class="submit-btn" type="submit" />
       </form>
 
-      <div class="text-container form-box" id="poem-box"></div>
+      <div class="text-container" id="poem-box"></div>
     </main>
 
     <footer>
