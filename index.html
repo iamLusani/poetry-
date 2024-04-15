@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poerty</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <header><h1>A poem for you❤️</h1></header>
     <main>
-      <form class="form-box">
+      <form class="form-box" id="poem-input-place">
         <input
           class="input-section"
           type="text"
@@ -20,7 +21,7 @@
         <input class="submit-btn" type="submit" />
       </form>
 
-      <div class="text-container"></div>
+      <div class="text-container form-box" id="poem-box"></div>
     </main>
 
     <footer>
